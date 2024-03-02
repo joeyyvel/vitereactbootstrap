@@ -5,6 +5,7 @@ import Contact from "./routes/Contact";
 import SignUp from "./routes/SignUp";
 import { Routes, Route } from "react-router-dom";
 import Javascript from "./footerPages/Javascript";
+import Html from "./footerPages/Html";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/javascript" element={<Javascript />} />
+        <Route path="/html" element={<Html />} />
       </Routes>
     </div>
   );

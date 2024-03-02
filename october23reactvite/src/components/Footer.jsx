@@ -30,7 +30,7 @@ const Footer = () => {
         <div>
           <h4>Front End Tools</h4>
           <Link to="/javascript">JavaScript</Link>
-          <a href="/">HTML</a>
+          <Link to="/html">HTML</Link>
           <a href="/">CSS</a>
           <a href="/">Cheat Sheet</a>
         </div>
