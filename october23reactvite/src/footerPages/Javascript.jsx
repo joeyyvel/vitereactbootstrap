@@ -37,6 +37,38 @@ const Javascript = () => {
               5. <span style={{ fontWeight: "bold" }}>Numbers</span>{" "}
             </p>
           </div>
+          <div>
+            <h6 className="explore text-success">
+              If you are already familiar with the definition of the above
+              topics, feel free to explore their methods only.
+            </h6>
+          </div>
+          <div>
+            <h1>Array</h1>
+            <p>
+              You may know that a variable can store only a value at a time, for
+              example var student = "jack", this is totally fine and we may use
+              it many times while building a project, however, sometimes it is
+              required to collect many values in a single variable like a list
+              of students names, this is where we can use the Array concept.
+              Array is a single variable that store a list of values and each
+              element is specified by a single index.
+            </p>
+            <p>Array methods</p>
+            <p style={{ fontSize: "22px", fontWeight: "bolder" }}>. pop()</p>
+            <p>The pop() method removes the last element of an array.</p>
+          </div>
+          <div className="pop bg-dark text-warning p-3 rounded-4">
+            <p> var students = [ 'Jack', 'James', 'Robert', 'John']</p>
+            <p> console.log(students);</p>
+            <p> students.pop();</p>
+            <p> console.log(students)</p>
+          </div>
+          <div className="popAns bg-dark text-warning p-3 rounded-4 mt-3">
+            <p>Output:</p>
+            <p>['Jack', 'James', 'Robert', 'John']</p>
+            <p>['Jack', 'James', 'Robert']</p>
+          </div>
         </div>
       </div>
     </>
