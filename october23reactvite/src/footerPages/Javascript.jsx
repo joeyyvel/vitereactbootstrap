@@ -131,6 +131,56 @@ const Javascript = () => {
               <p>['Jack', 'James', 'Robert', 'John']</p>
               <p>['Zahab', 'Kakar', 'Jack', 'James', 'Robert', 'John']</p>
             </div>
+            <div>
+              <p className="length mt-3">
+                <span style={{ fontSize: "20px", fontWeight: "bolder" }}>
+                  . length
+                </span>{" "}
+              </p>
+              <p>The length returns the number of elements in an array.</p>
+            </div>
+            <div className="length bg-dark text-warning p-3 rounded-4 mt-3">
+              <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+              <p>console.log(students);</p>
+              <p>var length = students.length;</p>
+              <p>console.log(length)</p>
+            </div>
+            <div className="lengthOutput bg-dark text-light p-3 rounded-4 mt-3">
+              <p> ['Jack', 'James', 'Robert', 'John']</p>
+              <p>4</p>
+            </div>
+            <div>
+              <p className="splice mt-3">
+                <span style={{ fontSize: "20px", fontWeight: "bolder" }}>
+                  . splice()
+                </span>
+              </p>
+              <p>
+                The splice() method is used to add new elements to an array.
+              </p>
+              <div className="splice bg-dark text-warning p-3 rounded-4 mt-3">
+                <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+                <p>console.log(students);</p>
+                <p>students.splice(2, 1, 'Zahab', 'Kakar');</p>
+                <p>console.log(students);</p>
+              </div>
+              <div className="spliceOutput bg-dark text-light p-3 rounded-4 mt-3 mb-3">
+                <p>Output:</p>
+                <p>['Jack', 'James', 'Robert', 'John']</p>
+                <p>['Jack', 'James', 'Zahab', 'Kakar', 'John']</p>
+              </div>
+              <div>
+                <p>
+                  As we said before, this method is used to add elements into an
+                  array, however, we must indicate that where the new elements
+                  should be added. In the above example, 2 indicates the index
+                  number where the new elements should be placed and 1 shows the
+                  number of elements that should be deleted, as we mentioned 1
+                  element should be deleted, we do not have the 'Robert' in the
+                  second array.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
