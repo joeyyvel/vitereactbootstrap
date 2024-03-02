@@ -27,11 +27,11 @@ const Footer = () => {
 
       <div className="bottom">
         <div>
-          <h4>Project</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Status</a>
-          <a href="/">License</a>
-          <a href="/">All Version</a>
+          <h4>Front End Tools</h4>
+          <a href="/">JavaScript</a>
+          <a href="/">HTML</a>
+          <a href="/">CSS</a>
+          <a href="/">Cheat Sheet</a>
         </div>
 
         <div>
