@@ -22,19 +22,19 @@ const Javascript = () => {
           </p>
           <div>
             <p id="paraOne">
-              1. <span>Array</span>{" "}
+              1. <span style={{ fontWeight: "bold" }}>Array</span>{" "}
             </p>
             <p id="paraOne">
-              2. <span>String</span>{" "}
+              2. <span style={{ fontWeight: "bold" }}>String</span>{" "}
             </p>
             <p id="paraOne">
-              3. <span>Objects</span>{" "}
+              3. <span style={{ fontWeight: "bold" }}>Objects</span>{" "}
             </p>
             <p id="paraOne">
-              4. <span>Numbers</span>{" "}
+              4. <span style={{ fontWeight: "bold" }}>Numbers</span>{" "}
             </p>
             <p id="paraOne">
-              5. <span>Numbers</span>{" "}
+              5. <span style={{ fontWeight: "bold" }}>Numbers</span>{" "}
             </p>
           </div>
         </div>
