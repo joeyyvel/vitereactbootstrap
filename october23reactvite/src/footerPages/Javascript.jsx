@@ -69,6 +69,24 @@ const Javascript = () => {
             <p>['Jack', 'James', 'Robert', 'John']</p>
             <p>['Jack', 'James', 'Robert']</p>
           </div>
+          <div>
+            <p className="shift mt-3">
+              <span style={{ fontSize: "20px", fontWeight: "bolder" }}>
+                . shift()
+              </span>
+            </p>
+            <p>The shift() method removes the first element from an array.</p>
+          </div>
+          <div className="shift bg-dark text-warning p-3 rounded-4 mt-3">
+            <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+            <p>console.log(students);</p>
+            <p>students.shift()</p>
+            <p>console.log(students)</p>
+          </div>
+          <div className="shiftAns bg-dark text-warning p-3 rounded-4 mt-3">
+            <p>['Jack', 'James', 'Robert', 'John']</p>
+            <p>['James', 'Robert', 'John']</p>
+          </div>
         </div>
       </div>
     </>
