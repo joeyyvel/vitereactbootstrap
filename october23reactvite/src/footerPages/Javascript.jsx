@@ -34,7 +34,7 @@ const Javascript = () => {
               4. <span style={{ fontWeight: "bold" }}>Numbers</span>{" "}
             </p>
             <p id="paraOne">
-              5. <span style={{ fontWeight: "bold" }}>Numbers</span>{" "}
+              5. <span style={{ fontWeight: "bold" }}>ES6</span>{" "}
             </p>
           </div>
           <div>
@@ -59,12 +59,12 @@ const Javascript = () => {
             <p>The pop() method removes the last element of an array.</p>
           </div>
           <div className="pop bg-dark text-warning p-3 rounded-4">
-            <p> var students = [ 'Jack', 'James', 'Robert', 'John']</p>
+            <p> var students = [ 'Jack', 'James', 'Robert', 'John'];</p>
             <p> console.log(students);</p>
             <p> students.pop();</p>
             <p> console.log(students)</p>
           </div>
-          <div className="popAns bg-dark text-warning p-3 rounded-4 mt-3">
+          <div className="popAns bg-dark text-light p-3 rounded-4 mt-3">
             <p>Output:</p>
             <p>['Jack', 'James', 'Robert', 'John']</p>
             <p>['Jack', 'James', 'Robert']</p>
@@ -78,14 +78,59 @@ const Javascript = () => {
             <p>The shift() method removes the first element from an array.</p>
           </div>
           <div className="shift bg-dark text-warning p-3 rounded-4 mt-3">
-            <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+            <p>var students = ['Jack', 'James', 'Robert', 'John'];</p>
             <p>console.log(students);</p>
             <p>students.shift()</p>
             <p>console.log(students)</p>
           </div>
-          <div className="shiftAns bg-dark text-warning p-3 rounded-4 mt-3">
+          <div className="shiftAns bg-dark text-light p-3 rounded-4 mt-3">
             <p>['Jack', 'James', 'Robert', 'John']</p>
             <p>['James', 'Robert', 'John']</p>
+          </div>
+          <div>
+            <p className="shift mt-3">
+              <span style={{ fontSize: "20px", fontWeight: "bolder" }}>
+                . push()
+              </span>
+            </p>
+            <p>
+              {" "}
+              The push() method adds one or more elements to the end of an
+              array.
+            </p>
+            <div className="push bg-dark text-warning p-3 rounded-4 mt-3">
+              <p>var students = ['Jack', 'James', 'Robert', 'John'];</p>
+              <p>console.log(students);</p>
+              <p>students.push('Zahab', 'Kakar');</p>
+              <p>console.log(students)</p>
+            </div>
+            <div className="pushOutput bg-dark text-light p-3 rounded-4 mt-3">
+              <p>Output:</p>
+              <p>['Jack', 'James', 'Robert', 'John']</p>
+              <p>['Jack', 'James', 'Robert', 'John', 'Zahab', 'Kakar']</p>
+            </div>
+            <div>
+              <p className="unshift mt-3">
+                <span style={{ fontSize: "20px", fontWeight: "bolder" }}>
+                  . unshift()
+                </span>
+              </p>
+              <p>
+                The unshift() method adds one or more elements to the beginning
+                of an array.
+              </p>
+            </div>
+            <div className="unshiftSol bg-dark text-warning p-3 rounded-4 mt-3">
+              <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+              <p>console.log(students);</p>
+              <p>students.unshift('Zahad', 'Kakar');</p>
+              <p>console.log(students)</p>
+            </div>
+            <div className="unshiftOutput bg-dark text-light p-3 rounded-4 mt-3">
+              <p>Output:</p>
+              <p>['Jack', 'James', 'Robert', 'John']</p>
+              <p>['Zahab', 'Kakar', 'Jack', 'James', 'Robert', 'John']</p>
+            </div>
           </div>
         </div>
       </div>
