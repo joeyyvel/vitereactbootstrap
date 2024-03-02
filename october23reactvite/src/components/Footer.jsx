@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./FooterStyles.css";
 
 const Footer = () => {
@@ -28,7 +29,7 @@ const Footer = () => {
       <div className="bottom">
         <div>
           <h4>Front End Tools</h4>
-          <a href="/">JavaScript</a>
+          <Link to="/javascript">JavaScript</Link>
           <a href="/">HTML</a>
           <a href="/">CSS</a>
           <a href="/">Cheat Sheet</a>
