@@ -33,6 +33,23 @@ const Html = () => {
         >
           <p className="cat ">My cat is very grumpy</p>
         </div>
+        <div>
+          <p>
+            If we wanted the line to stand by itself, we could specify that it
+            is a paragraph by enclosing it in paragraph tags:
+          </p>
+        </div>
+        <div>
+          <p
+            className="html border-bottom"
+            style={{ backgroundColor: "#F0FFF0" }}
+          >
+            HTML
+          </p>
+          <div className="catWord p-3" style={{ background: "#DCDCDC" }}>
+            p My cat is very grumpy /p
+          </div>
+        </div>
       </div>
     </>
   );
