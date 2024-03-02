@@ -7,7 +7,7 @@ const Javascript = () => {
       <div className="container p5">
         <div>
           {" "}
-          <h1>40 popular JavaScript Methods You Must Know</h1>{" "}
+          <h1>Few JavaScript Methods You Must Know</h1>{" "}
         </div>
 
         <div>
@@ -179,6 +179,34 @@ const Javascript = () => {
                   element should be deleted, we do not have the 'Robert' in the
                   second array.
                 </p>
+              </div>
+              <div>
+                <p className="concat mt-3">
+                  <span style={{ fontSize: "20px", fontWeight: "bolder" }}>
+                    . concat()
+                  </span>
+                </p>
+                <p>
+                  The contact method is used to creates a new array by
+                  concatenating or merging existing arrays.
+                </p>
+                <div className="concat bg-dark text-warning p-3 rounded-4 mt-3">
+                  <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+                  <p>console.log(students);</p>
+                  <p>var myFriends = ['Jennifer', 'Mary', 'Patricia']</p>
+                  <p>console.log(myFriends);</p>
+                  <p> var allName = students.concat(myFriends);</p>
+                  <p>console.log(allNames)</p>
+                </div>
+                <div className="concatOutput bg-dark text-light p-3 rounded-4 mt-3 mb-3">
+                  <p>Output:</p>
+                  <p>['Jack', 'James', 'Robert', 'John']</p>
+                  <p>['Jennifer', 'Mary', 'Patricia']</p>
+                  <p>
+                    ['Jack', 'James', 'Robert', 'John','Jennifer', 'Mary',
+                    'Patricia']
+                  </p>
+                </div>
               </div>
             </div>
           </div>
