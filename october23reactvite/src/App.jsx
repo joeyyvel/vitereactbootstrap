@@ -6,6 +6,7 @@ import SignUp from "./routes/SignUp";
 import { Routes, Route } from "react-router-dom";
 import Javascript from "./footerPages/Javascript";
 import Html from "./footerPages/Html";
+import Css from "./footerPages/Css";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/javascript" element={<Javascript />} />
         <Route path="/html" element={<Html />} />
+        <Route path="/css" element={<Css />} />
       </Routes>
     </div>
   );

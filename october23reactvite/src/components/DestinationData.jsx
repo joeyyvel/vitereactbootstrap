@@ -25,8 +25,8 @@ DestinationData.propTypes = {
   text: PropTypes.string,
   heading2: PropTypes.string,
   text2: PropTypes.string,
-  img1: PropTypes.object,
-  img2: PropTypes.object,
+  img1: PropTypes.any,
+  img2: PropTypes.any,
 };
 
 export default DestinationData;
