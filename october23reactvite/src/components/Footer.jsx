@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="footer">
       <div className="top">
         <div>
-          <h1>Roam</h1>
-          <p>Choose your favourite destination</p>
+          <h1>Excel in your chosen field</h1>
+          <p>Every day is a chance to Learn</p>
         </div>
 
         <div>

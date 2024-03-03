@@ -27,7 +27,7 @@ const Cheatsheet = () => {
           <div>
             <h3>JavaScript Cheat Sheet</h3>
             <p>
-              Let's start this JavaScript cheat sheet with how we can include
+              Let`s start this JavaScript cheat sheet with how we can include
               JavaScript in an HTML file. There are 2 ways of doing so:{" "}
             </p>
             <p>1. Internal Including of Java Script</p>
