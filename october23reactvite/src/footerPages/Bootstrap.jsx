@@ -58,6 +58,55 @@ const Bootstrap = () => {
           <h1>CDN links</h1>
           <p>As reference, here are our primary CDN links.</p>
         </div>
+        <div>
+          <table className="table">
+            <thead>
+              <tr>
+                <th>Description</th>
+                <th>URL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CSS</td>
+                <td style={{ color: "red", fontSize: "13px" }}>
+                  {" "}
+                  https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+                </td>
+              </tr>
+              <tr>
+                <td>JS</td>
+                <td style={{ color: "red", fontSize: "13px" }}>
+                  {" "}
+                  https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h1>Next steps</h1>
+          <p>
+            <span style={{ fontSize: "40px", fontWeight: "bolder" }}> . </span>
+            Read a bit more about some important global environment settings
+            that Bootstrap utilizes.
+          </p>
+          <p>
+            <span style={{ fontSize: "40px", fontWeight: "bolder" }}> . </span>
+            Read about what’s included in Bootstrap in our contents section and
+            the list of components that require JavaScript below.
+          </p>
+          <p>
+            <span style={{ fontSize: "40px", fontWeight: "bolder" }}> . </span>
+            Need a little more power? Consider building with Bootstrap by
+            including the source files via package manager.
+          </p>
+          <p>
+            <span style={{ fontSize: "40px", fontWeight: "bolder" }}> . </span>
+            Looking to use Bootstrap as a module with type=`module` Please refer
+            to our using Bootstrap as a module section.
+          </p>
+        </div>
       </div>
     </>
   );
