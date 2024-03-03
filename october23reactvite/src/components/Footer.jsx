@@ -36,10 +36,10 @@ const Footer = () => {
         </div>
 
         <div>
-          <h4>Front-End Framework</h4>
+          <h4>other`s</h4>
           <Link to="/bootstrap">Bootstrap</Link>
           <Link to="/reactjs">ReactJS</Link>
-          <a href="/">Font Awesome</a>
+          <Link to="/fontAwesome">Font Awesome</Link>
           <a href="/">The Icons</a>
         </div>
 
