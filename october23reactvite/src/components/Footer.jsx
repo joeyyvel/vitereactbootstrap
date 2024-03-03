@@ -28,7 +28,7 @@ const Footer = () => {
 
       <div className="bottom">
         <div>
-          <h4>Front End Tools</h4>
+          <h4>Front End basic tools</h4>
           <Link to="/javascript">JavaScript</Link>
           <Link to="/html">HTML</Link>
           <Link to="/css">CSS</Link>
@@ -36,15 +36,15 @@ const Footer = () => {
         </div>
 
         <div>
-          <h4>Project</h4>
-          <a href="/">Github</a>
-          <a href="/">Issues</a>
-          <a href="/">Project</a>
-          <a href="/">Twitter</a>
+          <h4>Front-End Framework</h4>
+          <Link to="/bootstrap">Bootstrap</Link>
+          <a href="/">ReactJS</a>
+          <a href="/">Font Awesome</a>
+          <a href="/">The Icons</a>
         </div>
 
         <div>
-          <h4>Project</h4>
+          <h4>PC hardware</h4>
           <a href="/">Support</a>
           <a href="/">Trouble shooting</a>
           <a href="/">Contact us</a>
