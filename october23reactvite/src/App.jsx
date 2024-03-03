@@ -13,6 +13,7 @@ import Reactjs from "./footerPages/Reactjs";
 import FontAwesome from "./footerPages/FontAwesome";
 import Sass from "./footerPages/Sass";
 import PcAssembly from "./footerPages/PcAssembly";
+import PcTroubleShoot from "./footerPages/PcTroubleShoot";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/fontAwesome" element={<FontAwesome />} />
         <Route path="/sass" element={<Sass />} />
         <Route path="/pCassembly" element={<PcAssembly />} />
+        <Route path="/pcTroubleShoot" element={<PcTroubleShoot />} />
       </Routes>
     </div>
   );

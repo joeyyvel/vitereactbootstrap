@@ -46,7 +46,7 @@ const Footer = () => {
         <div>
           <h4>PC hardware</h4>
           <Link to="/pcAssembly">PC Assembly</Link>
-          <a href="/">Trouble shooting</a>
+          <Link to="/pcTroubleShoot">PC Trouble shooting</Link>
           <a href="/">Contact us</a>
           <a href="/">Joey boy 🤣 </a>
         </div>
