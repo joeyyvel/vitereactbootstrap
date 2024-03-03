@@ -38,7 +38,7 @@ const Footer = () => {
         <div>
           <h4>Front-End Framework</h4>
           <Link to="/bootstrap">Bootstrap</Link>
-          <a href="/">ReactJS</a>
+          <Link to="/reactjs">ReactJS</Link>
           <a href="/">Font Awesome</a>
           <a href="/">The Icons</a>
         </div>

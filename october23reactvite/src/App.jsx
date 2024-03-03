@@ -9,6 +9,7 @@ import Html from "./footerPages/Html";
 import Css from "./footerPages/Css";
 import Cheatsheet from "./footerPages/Cheatsheet";
 import Bootstrap from "./footerPages/Bootstrap";
+import Reactjs from "./footerPages/Reactjs";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/css" element={<Css />} />
         <Route path="/cheatsheet" element={<Cheatsheet />} />
         <Route path="/bootstrap" element={<Bootstrap />} />
+        <Route path="/reactjs" element={<Reactjs />} />
       </Routes>
     </div>
   );
