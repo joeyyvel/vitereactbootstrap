@@ -11,6 +11,8 @@ import Cheatsheet from "./footerPages/Cheatsheet";
 import Bootstrap from "./footerPages/Bootstrap";
 import Reactjs from "./footerPages/Reactjs";
 import FontAwesome from "./footerPages/FontAwesome";
+import Sass from "./footerPages/Sass";
+import PcAssembly from "./footerPages/PcAssembly";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/bootstrap" element={<Bootstrap />} />
         <Route path="/reactjs" element={<Reactjs />} />
         <Route path="/fontAwesome" element={<FontAwesome />} />
+        <Route path="/sass" element={<Sass />} />
+        <Route path="/pCassembly" element={<PcAssembly />} />
       </Routes>
     </div>
   );

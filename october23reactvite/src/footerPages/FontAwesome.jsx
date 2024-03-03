@@ -68,6 +68,42 @@ const FontAwesome = () => {
             </div>
           </div>
         </div>
+        <div className="show bg-primary mt-5 text-center">
+          <h3 style={{ color: "white" }}>FINE-TUNED FOR PERFORMANCE</h3>
+          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+            <div>
+              <i
+                className="fa-solid fa-feather"
+                style={{ fontSize: "50px", padding: "20px", color: "green" }}
+              ></i>
+              <p style={{ color: "white" }}>Light-as-a-feather on Page Loads</p>
+            </div>
+            <div>
+              <i
+                className="fa-solid fa-truck-fast"
+                style={{ fontSize: "50px", padding: "20px", color: "yellow" }}
+              ></i>
+              <p style={{ color: "white" }}>Reliable Uptime and Loading</p>
+            </div>
+
+            <div>
+              <i
+                className="fa-solid fa-earth-americas"
+                style={{ fontSize: "50px", padding: "20px" }}
+              ></i>
+              <p style={{ color: "white" }}>Global-friendly CDN Network</p>
+            </div>
+            <div>
+              <i
+                className="fa-solid fa-tower-broadcast"
+                style={{ fontSize: "50px", padding: "20px", color: "red" }}
+              ></i>
+              <p style={{ color: "white" }}>
+                Auto and Custom Subsetting Options
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

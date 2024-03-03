@@ -36,16 +36,16 @@ const Footer = () => {
         </div>
 
         <div>
-          <h4>other`s</h4>
+          <h4>Other`s</h4>
           <Link to="/bootstrap">Bootstrap</Link>
           <Link to="/reactjs">ReactJS</Link>
           <Link to="/fontAwesome">Font Awesome</Link>
-          <a href="/">The Icons</a>
+          <Link to="/sass">Sass</Link>
         </div>
 
         <div>
           <h4>PC hardware</h4>
-          <a href="/">Support</a>
+          <Link to="/pcAssembly">PC Assembly</Link>
           <a href="/">Trouble shooting</a>
           <a href="/">Contact us</a>
           <a href="/">Joey boy 🤣 </a>
