@@ -32,7 +32,7 @@ const Footer = () => {
           <Link to="/javascript">JavaScript</Link>
           <Link to="/html">HTML</Link>
           <Link to="/css">CSS</Link>
-          <a href="/">Cheat Sheet</a>
+          <Link to="/cheatsheet">Cheat Sheet</Link>
         </div>
 
         <div>
