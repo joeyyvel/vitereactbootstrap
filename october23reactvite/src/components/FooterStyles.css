@@ -47,6 +47,13 @@
   padding-bottom: 1.1rem;
   font-size: 1.1rem;
 }
+.footTitle {
+  color: chartreuse;
+}
+
+.topic:hover {
+  color: blue;
+}
 
 @media screen and (max-width: 850px) {
   .footer {

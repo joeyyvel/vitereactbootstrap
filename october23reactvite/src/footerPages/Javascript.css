@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-#paraOne {
+#topics {
   color: blue;
+  font-size: 20px;
+}
+.one {
+  font-size: 25px;
 }

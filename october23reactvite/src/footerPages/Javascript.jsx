@@ -21,20 +21,20 @@ const Javascript = () => {
             you to read ES6 The modern Javascript to explore more about JS.
           </p>
           <div>
-            <p id="paraOne">
-              1. <span style={{ fontWeight: "bold" }}>Array</span>{" "}
+            <p id="topics">
+              1. <strong className="one">Array</strong>{" "}
             </p>
-            <p id="paraOne">
-              2. <span style={{ fontWeight: "bold" }}>String</span>{" "}
+            <p id="topics">
+              2. <strong className="one">String</strong>{" "}
             </p>
-            <p id="paraOne">
-              3. <span style={{ fontWeight: "bold" }}>Objects</span>{" "}
+            <p id="topics">
+              3. <strong className="one">Objects</strong>{" "}
             </p>
-            <p id="paraOne">
-              4. <span style={{ fontWeight: "bold" }}>Numbers</span>{" "}
+            <p id="topics">
+              4. <strong className="one">Numbers</strong>{" "}
             </p>
-            <p id="paraOne">
-              5. <span style={{ fontWeight: "bold" }}>ES6</span>{" "}
+            <p id="topics">
+              5. <strong className="one">ES6</strong>{" "}
             </p>
           </div>
           <div>

@@ -28,33 +28,61 @@ const Footer = () => {
 
       <div className="bottom">
         <div>
-          <h4>Front End basic tools</h4>
-          <Link to="/javascript">JavaScript</Link>
-          <Link to="/html">HTML</Link>
-          <Link to="/css">CSS</Link>
-          <Link to="/cheatsheet">Cheat Sheet</Link>
+          <h4 className="footTitle">Front End basic tools</h4>
+          <Link to="/javascript" className="topic">
+            JavaScript
+          </Link>
+          <Link to="/html" className="topic">
+            HTML
+          </Link>
+          <Link to="/css" className="topic">
+            CSS
+          </Link>
+          <Link to="/cheatsheet" className="topic">
+            Cheat Sheet
+          </Link>
         </div>
 
         <div>
-          <h4>Other`s</h4>
-          <Link to="/bootstrap">Bootstrap</Link>
-          <Link to="/reactjs">ReactJS</Link>
-          <Link to="/fontAwesome">Font Awesome</Link>
-          <Link to="/sass">Sass</Link>
+          <h4 className="footTitle">Other`s</h4>
+          <Link to="/bootstrap" className="topic">
+            Bootstrap
+          </Link>
+          <Link to="/reactjs" className="topic">
+            ReactJS
+          </Link>
+          <Link to="/fontAwesome" className="topic">
+            Font Awesome
+          </Link>
+          <Link to="/sass" className="topic">
+            Sass
+          </Link>
         </div>
 
         <div>
-          <h4>PC hardware</h4>
-          <Link to="/pcAssembly">PC Assembly</Link>
-          <Link to="/pcTroubleShoot">PC Trouble shooting</Link>
-          <Link to="/contact">Contact us</Link>
+          <h4 className="footTitle">PC hardware</h4>
+          <Link to="/pcAssembly" className="topic">
+            PC Assembly
+          </Link>
+          <Link to="/pcTroubleShoot" className="topic">
+            PC Trouble shooting
+          </Link>
+          <Link to="/contact" className="topic">
+            Contact us
+          </Link>
         </div>
 
         <div>
-          <h4>Legalities</h4>
-          <Link to="/termsofservice">Terms of Service</Link>
-          <Link to="/privacyPolicy">Privacy Policy</Link>
-          <Link to="/license">License</Link>
+          <h4 className="footTitle">Legalities</h4>
+          <Link to="/termsofservice" className="topic">
+            Terms of Service
+          </Link>
+          <Link to="/privacyPolicy" className="topic">
+            Privacy Policy
+          </Link>
+          <Link to="/license" className="topic">
+            License
+          </Link>
         </div>
       </div>
     </div>
