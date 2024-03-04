@@ -5,18 +5,22 @@ const PcTroubleShoot = () => {
     <>
       <div className="container">
         <div
-          className="main-container"
+          className="troubleShoot"
           style={{
             height: "200px",
-            backgroundColor: "#7FFFD4",
-            border: "none",
+            backgroundColor: "#B0E0E6",
+            paddingTop: "10%",
+            textAlign: "center",
           }}
         >
-          <div className="title">
-            <h5 style={{ fontSize: "25px" }}>
-              Computer Basic: Basic Troubleshooting Techniques
-            </h5>
-          </div>
+          <h1>How to Troubleshoot a Computer</h1>
+        </div>
+        <div>
+          <h6 style={{ color: "green", marginTop: "10%" }}>
+            Common Fixes |Speeding Up a Slow Computer |Troubleshooting Network
+            Problems |Getting Rid of Pop-Ups and Toolbars |Testing and Replacing
+            Hardware |Fixing a Noisy Computer |Expert Q&A
+          </h6>
         </div>
       </div>
     </>
