@@ -15,6 +15,7 @@ import Sass from "./footerPages/Sass";
 import PcAssembly from "./footerPages/PcAssembly";
 import PcTroubleShoot from "./footerPages/PcTroubleShoot";
 import TermsOfService from "./footerPages/TermsOfService";
+import PrivacyPolicy from "./footerPages/PrivacyPolicy";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/pCassembly" element={<PcAssembly />} />
         <Route path="/pcTroubleShoot" element={<PcTroubleShoot />} />
         <Route path="/termsOfService" element={<TermsOfService />} />
+        <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
     </div>
   );
