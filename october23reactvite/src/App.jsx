@@ -14,6 +14,7 @@ import FontAwesome from "./footerPages/FontAwesome";
 import Sass from "./footerPages/Sass";
 import PcAssembly from "./footerPages/PcAssembly";
 import PcTroubleShoot from "./footerPages/PcTroubleShoot";
+import TermsOfService from "./footerPages/TermsOfService";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/sass" element={<Sass />} />
         <Route path="/pCassembly" element={<PcAssembly />} />
         <Route path="/pcTroubleShoot" element={<PcTroubleShoot />} />
+        <Route path="/termsOfService" element={<TermsOfService />} />
       </Routes>
     </div>
   );

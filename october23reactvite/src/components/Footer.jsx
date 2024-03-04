@@ -47,13 +47,12 @@ const Footer = () => {
           <h4>PC hardware</h4>
           <Link to="/pcAssembly">PC Assembly</Link>
           <Link to="/pcTroubleShoot">PC Trouble shooting</Link>
-          <a href="/">Contact us</a>
-          <a href="/">Joey boy 🤣 </a>
+          <Link to="/contact">Contact us</Link>
         </div>
 
         <div>
-          <h4>Others</h4>
-          <a href="/">Terms of Service</a>
+          <h4>Legalities</h4>
+          <Link to="/termsofservice">Terms of Service</Link>
           <a href="/">Privacy Policy</a>
           <a href="/">License</a>
           <a href="/">Creator</a>
