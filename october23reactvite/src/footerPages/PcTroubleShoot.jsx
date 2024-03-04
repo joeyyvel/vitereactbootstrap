@@ -22,7 +22,7 @@ const PcTroubleShoot = () => {
             Hardware |Fixing a Noisy Computer |Expert Q&A
           </h6>
         </div>
-        <div>
+        <div style={{ marginTop: "5%" }}>
           <p>
             When your computer misbehaves, it`s useful to know how to
             troubleshoot problems yourself. There are a variety of things that
@@ -61,13 +61,6 @@ const PcTroubleShoot = () => {
           </p>
         </div>
         <div>
-          <p>
-            3 Check all of the cables. A loose power cable could be preventing
-            your computer from booting up. A bad surge protector could be the
-            culprit. Your keyboard or mouse may have come unplugged. Your
-            monitor cable might be loose. Checking all of your connections will
-            only take a moment
-          </p>
           <p>
             3 Check all of the cables. A loose power cable could be preventing
             your computer from booting up. A bad surge protector could be the
