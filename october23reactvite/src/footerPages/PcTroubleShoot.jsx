@@ -55,7 +55,7 @@ const PcTroubleShoot = () => {
             back to when the computer started having issues. Was a certain
             program installed, or a change made to the hardware? Was something
             suspicious downloaded, or installed with a program you got? Was
-            there a power outage and now things aren't working correctly?
+            there a power outage and now things aren`t working correctly?
             Narrowing down the possible cause of the problem will make it much
             easier to determine how to proceed.
           </p>
