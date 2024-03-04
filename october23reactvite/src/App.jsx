@@ -16,6 +16,7 @@ import PcAssembly from "./footerPages/PcAssembly";
 import PcTroubleShoot from "./footerPages/PcTroubleShoot";
 import TermsOfService from "./footerPages/TermsOfService";
 import PrivacyPolicy from "./footerPages/PrivacyPolicy";
+import License from "./footerPages/License";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/pcTroubleShoot" element={<PcTroubleShoot />} />
         <Route path="/termsOfService" element={<TermsOfService />} />
         <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/license" element={<License />} />
       </Routes>
     </div>
   );
