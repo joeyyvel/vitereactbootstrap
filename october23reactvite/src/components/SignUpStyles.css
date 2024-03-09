@@ -43,7 +43,7 @@
   align-items: start;
   justify-self: start;
   padding: 10px;
-  opacity: 0.6;
+  color: black;
 }
 
 #in {
@@ -84,12 +84,17 @@ label {
 #labelOne {
   margin-top: -15px;
   margin-left: 25px;
+  color: yellow;
 }
 
 #labelTwo {
   margin: -15px;
   margin-left: 10px;
   color: red;
+}
+.labelTwo {
+  color: yellow;
+  font-size: 14px;
 }
 
 #login {
@@ -100,10 +105,10 @@ label {
 }
 
 #toggle {
-  color: rgb(26, 26, 80);
+  color: rgb(233, 17, 125);
   text-decoration: none;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: bolder;
   white-space: nowrap;
 }
 
@@ -131,14 +136,22 @@ label {
     align-items: start;
     justify-self: start;
     padding: 10px;
-    opacity: 0.6;
+    opacity: 0.8;
     margin-top: -5px;
+  }
+  /*--------------------labels-------------------*/
+  #labelOne {
+    color: yellow;
+    font-size: 13px;
+    font-weight: 500;
   }
 
   .labelTwo {
     margin-top: -15px;
     margin-left: 10px;
-    font-size: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    color: yellow;
   }
 
   .toolTip {
@@ -237,13 +250,13 @@ input:focus {
   top: 8px;
   width: 20px;
   height: 28px;
-  background-color: blue;
+  background-color: red;
   color: #fff;
-  font-size: 25px;
-  font-weight: 600px;
-  line-height: 30px;
+  font-size: 15px;
+  font-weight: bolder;
+  line-height: 24px;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 .popup.active .overlay {

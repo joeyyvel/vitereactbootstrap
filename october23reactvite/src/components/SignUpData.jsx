@@ -11,8 +11,8 @@ function SignUpData() {
           <div className="container-left"></div>
           <div className="container-right">
             <form action="">
-              <input type="text" placeholder="Enter your name :" />
-              <input type="text" placeholder="Enter your :" />
+              <input type="text" placeholder="name :" />
+              <input type="text" placeholder="Surname:" />
               <input type="text" placeholder="Create password :" />
               <input type="text" placeholder="confirm password :" />
               <br />
