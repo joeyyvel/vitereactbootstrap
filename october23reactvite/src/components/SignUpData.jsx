@@ -65,16 +65,7 @@ function SignUpData() {
           </div>
         </div>
       )}
-      {/*-------------Page two--------------- */}
-      <div className="containerTwo">
-        {/*--------
-
-       <div className="joeyImage">
-          <img src={windowOne} alt="" />
-        </div> 
-
-             --------*/}
-      </div>
+      {/*-------------reserve for container two--------------- */}
     </div>
   );
 }

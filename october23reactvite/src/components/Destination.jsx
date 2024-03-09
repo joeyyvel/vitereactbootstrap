@@ -13,7 +13,7 @@ const Destination = () => {
 
       <DestinationData
         className="first-des"
-        heading="Heading of joey"
+        heading="Heading of Lorem Ipsum"
         text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, fuga
       amet sit maiores nihil delectus ratione rerum aperiam magnam autem ut
       laborum vero. Aut ipsa quaerat repellat quis cumque aspernatur
@@ -33,7 +33,7 @@ const Destination = () => {
 
       <DestinationData
         className="first-des-reverse"
-        heading="Heading of joey"
+        heading="Heading of Lorem Ipsum"
         text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, fuga
       amet sit maiores nihil delectus ratione rerum aperiam magnam autem ut
       laborum vero. Aut ipsa quaerat repellat quis cumque aspernatur

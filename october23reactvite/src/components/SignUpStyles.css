@@ -257,12 +257,6 @@ input:focus {
 
 /*----------------------modal end------------------------*/
 
-/*--------------------page Two--------------------*/
-.containerTwo {
-  height: 100vh;
-  background-color: orange;
-}
-
 .joeyImage:hover {
   transform: scale(1.3);
 }
