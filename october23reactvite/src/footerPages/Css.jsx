@@ -1,8 +1,9 @@
 import React from "react";
-
+import GoingBackPage from "./GoingBackPage";
 const Css = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container p-3">
         <div className="css border border-subtle m-3 p-2">
           <p>CSS basics</p>

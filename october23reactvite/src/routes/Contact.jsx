@@ -3,11 +3,12 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import contactPic from "../images/contact.jpg";
-
+import GoingBackPage from "../footerPages/GoingBackPage";
 function Contact() {
   return (
     <>
       <Navbar />
+      <GoingBackPage />
       <Hero
         cName="hero-aboutPage"
         heroImage={contactPic}

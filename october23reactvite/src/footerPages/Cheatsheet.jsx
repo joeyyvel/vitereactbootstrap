@@ -1,9 +1,11 @@
 import React from "react";
 import Jscheatsheet from "../images/JavaScript-Cheat-Sheet-PDF.webp";
+import GoingBackPage from "./GoingBackPage";
 
 const Cheatsheet = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div>
           <img src={Jscheatsheet} alt="" />

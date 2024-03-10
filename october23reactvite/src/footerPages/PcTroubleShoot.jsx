@@ -1,8 +1,9 @@
 import React from "react";
-
+import GoingBackPage from "./GoingBackPage";
 const PcTroubleShoot = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div
           className="troubleShoot"

@@ -1,8 +1,9 @@
 import React from "react";
-
+import GoingBackPage from "./GoingBackPage";
 const Sass = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div
           className="head-container"

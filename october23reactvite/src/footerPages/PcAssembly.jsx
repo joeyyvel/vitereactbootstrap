@@ -1,9 +1,10 @@
 import React from "react";
 import pcPicture from "../images/computer.jpg.webp";
-
+import GoingBackPage from "./GoingBackPage";
 const PcAssembly = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div>
           <h1>PC Assembly</h1>

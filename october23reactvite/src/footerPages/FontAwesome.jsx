@@ -1,8 +1,9 @@
 import React from "react";
-
+import GoingBackPage from "./GoingBackPage";
 const FontAwesome = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div className="title text-light bg-secondary text-center">
           <p

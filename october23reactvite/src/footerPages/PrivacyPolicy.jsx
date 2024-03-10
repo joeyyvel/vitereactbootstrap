@@ -1,8 +1,9 @@
 import React from "react";
-
+import GoingBackPage from "./GoingBackPage";
 const PrivacyPolicy = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div className="head-container" style={{ marginTop: "5%" }}>
           <h1 style={{ textShadow: "0 0 3px #FF0000" }}>PRIVACY NOTICE</h1>

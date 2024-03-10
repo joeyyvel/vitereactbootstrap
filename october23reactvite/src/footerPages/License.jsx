@@ -1,8 +1,9 @@
 import React from "react";
-
+import GoingBackPage from "./GoingBackPage";
 const License = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div>
           <h1

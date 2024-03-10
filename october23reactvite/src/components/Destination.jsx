@@ -7,7 +7,7 @@ import pic4 from "../images/image4.jpg";
 
 const Destination = () => {
   return (
-    <div className="destination">
+    <div className="destination" id="myJoey">
       <h1 className="popDestination">Popular Destination</h1>
       <p className="paraDestination">Tours give you the opportunity</p>
 

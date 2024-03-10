@@ -1,8 +1,10 @@
 import React from "react";
+import GoingBackPage from "./GoingBackPage";
 
 const Bootstrap = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div className="head bg-primary">
           <p>

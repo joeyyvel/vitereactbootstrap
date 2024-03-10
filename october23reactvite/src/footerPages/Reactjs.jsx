@@ -1,8 +1,10 @@
 import React from "react";
 import "../footerPages/Reactjs.css";
+import GoingBackPage from "./GoingBackPage";
 const Reactjs = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div
           className="head p-3 text-center"

@@ -1,8 +1,10 @@
 import React from "react";
+import GoingBackPage from "./GoingBackPage";
 
 const Html = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container p-3">
         <div className="border border-subtle m-3 p-2">
           <h3>HTML basics</h3>

@@ -6,7 +6,9 @@ const GoingBackPage = () => {
     <>
       <div>
         <button className="fixedBtn">
-          <Link to="/">Back to home page</Link>{" "}
+          <Link to="/" target="_parent">
+            Back to home page
+          </Link>{" "}
         </button>
       </div>
     </>

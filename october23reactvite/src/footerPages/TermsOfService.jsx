@@ -1,8 +1,10 @@
 import React from "react";
 import "../footerPages/TermsOfService.css";
+import GoingBackPage from "./GoingBackPage";
 const TermsOfService = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container">
         <div
           style={{
