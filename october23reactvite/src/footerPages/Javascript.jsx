@@ -1,9 +1,11 @@
 import React from "react";
 import "../footerPages/Javascript.css";
+import GoingBackPage from "../footerPages/GoingBackPage";
 
 const Javascript = () => {
   return (
     <>
+      <GoingBackPage />
       <div className="container p5">
         <div>
           {" "}
@@ -47,7 +49,7 @@ const Javascript = () => {
             <h1>Array</h1>
             <p>
               You may know that a variable can store only a value at a time, for
-              example var student = "jack", this is totally fine and we may use
+              example var student = `jack`, this is totally fine and we may use
               it many times while building a project, however, sometimes it is
               required to collect many values in a single variable like a list
               of students names, this is where we can use the Array concept.
@@ -59,15 +61,15 @@ const Javascript = () => {
             <p>The pop() method removes the last element of an array.</p>
           </div>
           <div className="pop bg-dark text-warning p-3 rounded-4">
-            <p> var students = [ 'Jack', 'James', 'Robert', 'John'];</p>
+            <p> var students = [ `Jack``, `James``, `Robert`, `John``];</p>
             <p> console.log(students);</p>
             <p> students.pop();</p>
             <p> console.log(students)</p>
           </div>
           <div className="popAns bg-dark text-light p-3 rounded-4 mt-3">
             <p>Output:</p>
-            <p>['Jack', 'James', 'Robert', 'John']</p>
-            <p>['Jack', 'James', 'Robert']</p>
+            <p>[`Jack``, `James``, `Robert``, `John``]</p>
+            <p>[`Jack``, `James``, `Robert``]</p>
           </div>
           <div>
             <p className="shift mt-3">
@@ -78,14 +80,14 @@ const Javascript = () => {
             <p>The shift() method removes the first element from an array.</p>
           </div>
           <div className="shift bg-dark text-warning p-3 rounded-4 mt-3">
-            <p>var students = ['Jack', 'James', 'Robert', 'John'];</p>
+            <p>var students = [`Jack`, `James`, `Robert`, `John`];</p>
             <p>console.log(students);</p>
             <p>students.shift()</p>
             <p>console.log(students)</p>
           </div>
           <div className="shiftAns bg-dark text-light p-3 rounded-4 mt-3">
-            <p>['Jack', 'James', 'Robert', 'John']</p>
-            <p>['James', 'Robert', 'John']</p>
+            <p>[`Jack`, `James`, `Robert`, `John`]</p>
+            <p>[`James`, `Robert``, `John`]</p>
           </div>
           <div>
             <p className="shift mt-3">
@@ -99,15 +101,15 @@ const Javascript = () => {
               array.
             </p>
             <div className="push bg-dark text-warning p-3 rounded-4 mt-3">
-              <p>var students = ['Jack', 'James', 'Robert', 'John'];</p>
+              <p>var students = [`Jack`, `James`, `Robert`, `John`];</p>
               <p>console.log(students);</p>
-              <p>students.push('Zahab', 'Kakar');</p>
+              <p>students.push(`Zahab`, `Kakar`);</p>
               <p>console.log(students)</p>
             </div>
             <div className="pushOutput bg-dark text-light p-3 rounded-4 mt-3">
               <p>Output:</p>
-              <p>['Jack', 'James', 'Robert', 'John']</p>
-              <p>['Jack', 'James', 'Robert', 'John', 'Zahab', 'Kakar']</p>
+              <p>[`Jack`, `James`, `Robert`, `John`]</p>
+              <p>[`Jack`, `James`, `Robert`, `John`, `Zahab`, `Kakar`]</p>
             </div>
             <div>
               <p className="unshift mt-3">
@@ -121,15 +123,15 @@ const Javascript = () => {
               </p>
             </div>
             <div className="unshiftSol bg-dark text-warning p-3 rounded-4 mt-3">
-              <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+              <p>var students = [`Jack`, `James`, `Robert`, `John`]</p>
               <p>console.log(students);</p>
-              <p>students.unshift('Zahad', 'Kakar');</p>
+              <p>students.unshift(`Zahad`, `Kakar`);</p>
               <p>console.log(students)</p>
             </div>
             <div className="unshiftOutput bg-dark text-light p-3 rounded-4 mt-3">
               <p>Output:</p>
-              <p>['Jack', 'James', 'Robert', 'John']</p>
-              <p>['Zahab', 'Kakar', 'Jack', 'James', 'Robert', 'John']</p>
+              <p>[`Jack`, `James`, `Robert`, `John`]</p>
+              <p>[`Zahab`, `Kakar`, `Jack`, `James`, `Robert`, `John`]</p>
             </div>
             <div>
               <p className="length mt-3">
@@ -140,13 +142,13 @@ const Javascript = () => {
               <p>The length returns the number of elements in an array.</p>
             </div>
             <div className="length bg-dark text-warning p-3 rounded-4 mt-3">
-              <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+              <p>var students = [`Jack`, `James`, `Robert`, `John`]</p>
               <p>console.log(students);</p>
               <p>var length = students.length;</p>
               <p>console.log(length)</p>
             </div>
             <div className="lengthOutput bg-dark text-light p-3 rounded-4 mt-3">
-              <p> ['Jack', 'James', 'Robert', 'John']</p>
+              <p> [`Jack`, `James`, `Robert`, `John`]</p>
               <p>4</p>
             </div>
             <div>
@@ -159,15 +161,15 @@ const Javascript = () => {
                 The splice() method is used to add new elements to an array.
               </p>
               <div className="splice bg-dark text-warning p-3 rounded-4 mt-3">
-                <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+                <p>var students = [`Jack`, `James`, `Robert`, `John`]</p>
                 <p>console.log(students);</p>
-                <p>students.splice(2, 1, 'Zahab', 'Kakar');</p>
+                <p>students.splice(2, 1, `Zahab`, `Kakar`);</p>
                 <p>console.log(students);</p>
               </div>
               <div className="spliceOutput bg-dark text-light p-3 rounded-4 mt-3 mb-3">
                 <p>Output:</p>
-                <p>['Jack', 'James', 'Robert', 'John']</p>
-                <p>['Jack', 'James', 'Zahab', 'Kakar', 'John']</p>
+                <p>[`Jack`, `James`, `Robert`, `John`]</p>
+                <p>[`Jack`, `James`, `Zahab`, `Kakar`, `John`]</p>
               </div>
               <div>
                 <p>
@@ -176,7 +178,7 @@ const Javascript = () => {
                   should be added. In the above example, 2 indicates the index
                   number where the new elements should be placed and 1 shows the
                   number of elements that should be deleted, as we mentioned 1
-                  element should be deleted, we do not have the 'Robert' in the
+                  element should be deleted, we do not have the `Robert` in the
                   second array.
                 </p>
               </div>
@@ -191,20 +193,20 @@ const Javascript = () => {
                   concatenating or merging existing arrays.
                 </p>
                 <div className="concat bg-dark text-warning p-3 rounded-4 mt-3">
-                  <p>var students = ['Jack', 'James', 'Robert', 'John']</p>
+                  <p>var students = [`Jack`, `James`, `Robert`, `John`]</p>
                   <p>console.log(students);</p>
-                  <p>var myFriends = ['Jennifer', 'Mary', 'Patricia']</p>
+                  <p>var myFriends = [`Jennifer`, `Mary`, `Patricia`]</p>
                   <p>console.log(myFriends);</p>
                   <p> var allName = students.concat(myFriends);</p>
                   <p>console.log(allNames)</p>
                 </div>
                 <div className="concatOutput bg-dark text-light p-3 rounded-4 mt-3 mb-3">
                   <p>Output:</p>
-                  <p>['Jack', 'James', 'Robert', 'John']</p>
-                  <p>['Jennifer', 'Mary', 'Patricia']</p>
+                  <p>[`Jack`, `James`, `Robert`, `John`]</p>
+                  <p>[`Jennifer`, `Mary`, `Patricia`]</p>
                   <p>
-                    ['Jack', 'James', 'Robert', 'John','Jennifer', 'Mary',
-                    'Patricia']
+                    [`Jack`, `James`, `Robert`, `John`,`Jennifer`, `Mary`,
+                    `Patricia``]
                   </p>
                 </div>
               </div>
