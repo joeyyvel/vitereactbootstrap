@@ -10,17 +10,33 @@
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: orange;
+  background: rgb(39, 231, 103);
+  border-radius: 5px;
 }
 
 .top i {
-  color: #fff;
+  color: #ebe5e5;
   font-size: 2rem;
   margin-left: 1rem;
 }
+/* ------social media flatForms facebook icon----------*/
+#faceBook:hover {
+  color: blue;
+}
 
-.top i:hover {
-  color: rgb(104, 14, 104);
+/*-------social media flatForms instagram icon---------*/
+#instagram:hover {
+  color: #a71e5e;
+}
+
+/*--------social media flatForms behance icon-----------*/
+#behance:hover {
+  color: rgb(10, 10, 168);
+}
+
+/*--------social media flatForms twitter icon-----------*/
+#twitter:hover {
+  color: rgb(26, 23, 24);
 }
 
 .bottom {
